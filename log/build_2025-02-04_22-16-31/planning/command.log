@@ -1,0 +1,1 @@
+Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake /home/panjincheng/Desktop/ws_ROS2PNC/src/planning -DCMAKE_INSTALL_PREFIX=/home/panjincheng/Desktop/ws_ROS2PNC/install/planning
