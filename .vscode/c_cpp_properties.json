@@ -9,6 +9,7 @@
             ],
             "intelliSenseMode": "linux-gcc-x64",
             "compilerPath": "/usr/bin/gcc",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
             "cStandard": "${default}",
             "cppStandard": "${default}",
             "compilerArgs": [
