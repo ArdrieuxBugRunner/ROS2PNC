@@ -1,0 +1,153 @@
+[0.230s] Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
+[0.254s] [35m[1mScanning dependencies of target planning_node[0m
+[0.280s] [ 33%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o[0m
+[1.889s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[1.889s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[1.889s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.889s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.890s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.890s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.890s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.890s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.890s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.890s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.890s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:4[m[K,
+[1.890s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[1.890s] [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:[m[K In function ‘[01m[Kbool Planning::process()[m[K’:
+[1.891s] [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:12:40:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[1.891s]    12 |         RCLCPP_INFO(rclcpp::get_logger([01;31m[K)[m[K, "Processing ...");
+[1.891s]       |                                        [01;31m[K^[m[K
+[1.891s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/logging.hpp:23[m[K,
+[1.891s]                  from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[1.891s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[1.891s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.891s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.891s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.891s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.891s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.891s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.891s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.891s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.891s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:4[m[K,
+[1.892s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[1.892s] [01m[K/opt/ros/galactic/include/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.892s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.892s]       |                 [01;36m[K^~~~~~[m[K
+[1.892s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[1.892s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[1.892s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.892s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.892s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.892s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.892s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.892s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.892s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.892s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.892s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:4[m[K,
+[1.893s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[1.893s] [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:12:40:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[1.893s]    12 |         RCLCPP_INFO(rclcpp::get_logger([01;31m[K)[m[K, "Processing ...");
+[1.893s]       |                                        [01;31m[K^[m[K
+[1.893s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/logging.hpp:23[m[K,
+[1.893s]                  from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[1.893s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[1.893s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.893s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.893s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.893s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.893s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.893s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.894s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.894s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.894s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:4[m[K,
+[1.894s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[1.894s] [01m[K/opt/ros/galactic/include/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.894s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.894s]       |                 [01;36m[K^~~~~~[m[K
+[1.894s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[1.894s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[1.894s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.894s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.894s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.894s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.894s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.894s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.894s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.895s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.895s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:4[m[K,
+[1.895s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[1.895s] [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.895s]    12 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Processing ...");
+[1.895s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.895s] [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.895s]    12 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Processing ...");
+[1.895s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.895s] [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.895s]    12 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Processing ...");
+[1.895s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.895s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[1.895s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[1.896s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.896s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.896s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.896s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.896s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.896s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.896s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.896s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.896s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:4[m[K,
+[1.896s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[1.896s] [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:12:40:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[1.896s]    12 |         RCLCPP_INFO(rclcpp::get_logger([01;31m[K)[m[K, "Processing ...");
+[1.896s]       |                                        [01;31m[K^[m[K
+[1.896s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/logging.hpp:23[m[K,
+[1.896s]                  from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[1.896s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[1.897s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.897s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.897s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.897s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.897s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.897s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.897s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.897s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.897s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:4[m[K,
+[1.897s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[1.897s] [01m[K/opt/ros/galactic/include/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.897s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.897s]       |                 [01;36m[K^~~~~~[m[K
+[1.897s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[1.897s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[1.898s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.898s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.898s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.898s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.898s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.898s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.898s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.898s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.898s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:4[m[K,
+[1.898s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[1.898s] [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:12:40:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[1.898s]    12 |         RCLCPP_INFO(rclcpp::get_logger([01;31m[K)[m[K, "Processing ...");
+[1.898s]       |                                        [01;31m[K^[m[K
+[1.898s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/logging.hpp:23[m[K,
+[1.898s]                  from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[1.898s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[1.899s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.899s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.899s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.899s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.899s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.899s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.899s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.899s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.899s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:4[m[K,
+[1.899s]                  from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[1.899s] [01m[K/opt/ros/galactic/include/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.899s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.899s]       |                 [01;36m[K^~~~~~[m[K
+[2.483s] make[2]: *** [src/planning_process/CMakeFiles/planning_node.dir/build.make:95：src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o] 错误 1
+[2.484s] make[1]: *** [CMakeFiles/Makefile2:337：src/planning_process/CMakeFiles/planning_node.dir/all] 错误 2
+[2.484s] make: *** [Makefile:160：all] 错误 2
+[2.485s] Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16

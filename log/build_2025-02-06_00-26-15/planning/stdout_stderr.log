@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target planning_node[0m
+[ 66%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable planning_node[0m
+/usr/bin/ld: CMakeFiles/planning_node.dir/planning_node.cpp.o: in function `main':
+planning_node.cpp:(.text+0x3da): undefined reference to `Planning::PlanningProcess::process()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [src/planning_process/CMakeFiles/planning_node.dir/build.make:205：src/planning_process/planning_node] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:337：src/planning_process/CMakeFiles/planning_node.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

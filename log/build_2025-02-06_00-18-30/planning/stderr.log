@@ -1,0 +1,10 @@
+In file included from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:[m[K In member function ‘[01m[Kbool Planning::PlanningProcess::process()[m[K’:
+[01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:11:18:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   11 |   bool process(){[01;35m[K}[m[K  // 总流程函数
+      |                  [01;35m[K^[m[K
+In file included from [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_node.cpp:1[m[K:
+[01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:[m[K In member function ‘[01m[Kbool Planning::PlanningProcess::process()[m[K’:
+[01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_process.h:11:18:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   11 |   bool process(){[01;35m[K}[m[K  // 总流程函数
+      |                  [01;35m[K^[m[K

@@ -1,0 +1,29 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/panjincheng/miniconda3/bin/python3
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+-- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+-- Found base_msgs: 0.0.0 (/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/panjincheng/Desktop/ws_ROS2PNC/build/planning
+[35m[1mScanning dependencies of target planning_node[0m
+[ 50%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.o[0m
+[01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_node.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+    1 | #pragma [01;35m[Konce[m[K
+      |         [01;35m[K^~~~[m[K
+[100%] [32m[1mLinking CXX executable planning_node[0m
+/usr/bin/ld: CMakeFiles/planning_node.dir/planning_node.cpp.o: in function `main':
+planning_node.cpp:(.text+0x3da): undefined reference to `Planning::PlanningProcess::process()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [src/planning_process/CMakeFiles/planning_node.dir/build.make:190：src/planning_process/planning_node] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:337：src/planning_process/CMakeFiles/planning_node.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

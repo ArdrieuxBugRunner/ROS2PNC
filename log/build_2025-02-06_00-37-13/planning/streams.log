@@ -1,0 +1,32 @@
+[0.233s] Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
+[0.257s] [35m[1mScanning dependencies of target planning_node[0m
+[0.281s] [ 33%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o[0m
+[2.478s] [ 66%] [32m[1mLinking CXX executable planning_node[0m
+[2.581s] [100%] Built target planning_node
+[2.586s] Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
+[2.589s] Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --install /home/panjincheng/Desktop/ws_ROS2PNC/build/planning
+[2.593s] -- Install configuration: ""
+[2.594s] -- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/lib/planning/planning_node
+[2.594s] -- Set runtime path of "/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/lib/planning/planning_node" to ""
+[2.594s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/config
+[2.595s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/launch
+[2.595s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/urdf
+[2.595s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/urdf/main_car
+[2.595s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/urdf/obs_car
+[2.595s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/rviz
+[2.595s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+[2.595s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+[2.595s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/environment/ament_prefix_path.sh
+[2.596s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/environment/ament_prefix_path.dsv
+[2.596s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/environment/path.sh
+[2.596s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/environment/path.dsv
+[2.596s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/local_setup.bash
+[2.596s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/local_setup.sh
+[2.596s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/local_setup.zsh
+[2.597s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/local_setup.dsv
+[2.598s] -- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.dsv
+[2.598s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/ament_index/resource_index/packages/planning
+[2.598s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/cmake/planningConfig.cmake
+[2.598s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/cmake/planningConfig-version.cmake
+[2.598s] -- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.xml
+[2.599s] Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --install /home/panjincheng/Desktop/ws_ROS2PNC/build/planning

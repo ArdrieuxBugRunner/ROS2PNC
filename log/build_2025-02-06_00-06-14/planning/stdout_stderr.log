@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target planning_node[0m
+[ 50%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.o[0m
+[01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_node.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+    1 | #pragma [01;35m[Konce[m[K
+      |         [01;35m[K^~~~[m[K
+[100%] [32m[1mLinking CXX executable planning_node[0m
+[100%] Built target planning_node
+-- Install configuration: ""
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/lib/planning/planning_node
+-- Set runtime path of "/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/lib/planning/planning_node" to ""
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/config
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/launch
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/urdf
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/urdf/main_car
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/urdf/obs_car
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/rviz
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+-- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/environment/ament_prefix_path.sh
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/environment/path.sh
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/environment/path.dsv
+-- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/local_setup.bash
+-- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/local_setup.sh
+-- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/local_setup.zsh
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/local_setup.dsv
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.dsv
+-- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/ament_index/resource_index/packages/planning
+-- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/cmake/planningConfig.cmake
+-- Up-to-date: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/cmake/planningConfig-version.cmake
+-- Installing: /home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.xml

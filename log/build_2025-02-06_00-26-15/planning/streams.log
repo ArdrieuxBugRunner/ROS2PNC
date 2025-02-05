@@ -1,0 +1,12 @@
+[0.241s] Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
+[0.265s] [35m[1mScanning dependencies of target planning_node[0m
+[0.293s] [ 66%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o[0m
+[0.293s] [ 66%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.o[0m
+[2.554s] [100%] [32m[1mLinking CXX executable planning_node[0m
+[2.655s] /usr/bin/ld: CMakeFiles/planning_node.dir/planning_node.cpp.o: in function `main':
+[2.655s] planning_node.cpp:(.text+0x3da): undefined reference to `Planning::PlanningProcess::process()'
+[2.656s] collect2: error: ld returned 1 exit status
+[2.656s] make[2]: *** [src/planning_process/CMakeFiles/planning_node.dir/build.make:205：src/planning_process/planning_node] 错误 1
+[2.656s] make[1]: *** [CMakeFiles/Makefile2:337：src/planning_process/CMakeFiles/planning_node.dir/all] 错误 2
+[2.656s] make: *** [Makefile:160：all] 错误 2
+[2.658s] Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16

@@ -1,0 +1,271 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "src/common",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/common"
+				},
+				{
+					"build" : "src/decision_center",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/decision_center"
+				},
+				{
+					"build" : "src/pnc_map_creator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "src/pnc_map_creator"
+				},
+				{
+					"build" : "src/global_planner",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/global_planner"
+				},
+				{
+					"build" : "src/local_planner",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "src/local_planner"
+				},
+				{
+					"build" : "src/reference_line",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/reference_line"
+				},
+				{
+					"build" : "src/vehicle_info",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "src/vehicle_info"
+				},
+				{
+					"build" : "src/planning_process",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "src/planning_process",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/move_cmd",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "src/move_cmd"
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "planning",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "decision_center",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "pnc_map_creator",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "global_planner",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "local_planner",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "reference_line",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "vehicle_info",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "planning_process",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "move_cmd",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "planning_node::@7f6d08f3b5f751c4407d",
+					"jsonFile" : "target-planning_node-e798c3af80a074a85db3.json",
+					"name" : "planning_node",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planning_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planning_uninstall-a781ec3b0f26d6a757b0.json",
+					"name" : "planning_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b9b7ea9efce29eb6e91f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/panjincheng/Desktop/ws_ROS2PNC/build/planning",
+		"source" : "/home/panjincheng/Desktop/ws_ROS2PNC/src/planning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

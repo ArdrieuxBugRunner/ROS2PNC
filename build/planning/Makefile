@@ -187,19 +187,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named planning_node
-
-# Build rule for target.
-planning_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 planning_node
-.PHONY : planning_node
-
-# fast build rule for target.
-planning_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/planning_node.dir/build.make CMakeFiles/planning_node.dir/build
-.PHONY : planning_node/fast
-
-#=============================================================================
 # Target rules for targets named planning_uninstall
 
 # Build rule for target.
@@ -225,32 +212,18 @@ uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/planning_node.o: src/planning_node.cpp.o
+#=============================================================================
+# Target rules for targets named planning_node
 
-.PHONY : src/planning_node.o
+# Build rule for target.
+planning_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 planning_node
+.PHONY : planning_node
 
-# target to build an object file
-src/planning_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/planning_node.dir/build.make CMakeFiles/planning_node.dir/src/planning_node.cpp.o
-.PHONY : src/planning_node.cpp.o
-
-src/planning_node.i: src/planning_node.cpp.i
-
-.PHONY : src/planning_node.i
-
-# target to preprocess a source file
-src/planning_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/planning_node.dir/build.make CMakeFiles/planning_node.dir/src/planning_node.cpp.i
-.PHONY : src/planning_node.cpp.i
-
-src/planning_node.s: src/planning_node.cpp.s
-
-.PHONY : src/planning_node.s
-
-# target to generate assembly for a file
-src/planning_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/planning_node.dir/build.make CMakeFiles/planning_node.dir/src/planning_node.cpp.s
-.PHONY : src/planning_node.cpp.s
+# fast build rule for target.
+planning_node/fast:
+	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/build
+.PHONY : planning_node/fast
 
 # Help Target
 help:
@@ -268,9 +241,6 @@ help:
 	@echo "... planning_uninstall"
 	@echo "... uninstall"
 	@echo "... planning_node"
-	@echo "... src/planning_node.o"
-	@echo "... src/planning_node.i"
-	@echo "... src/planning_node.s"
 .PHONY : help
 
 

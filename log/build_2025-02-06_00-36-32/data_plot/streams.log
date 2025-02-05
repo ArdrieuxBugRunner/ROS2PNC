@@ -1,0 +1,21 @@
+[0.618s] Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/src/data_plot': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/build install --record /home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/install.log --single-version-externally-managed install_data
+[0.838s] running egg_info
+[0.839s] writing ../../build/data_plot/data_plot.egg-info/PKG-INFO
+[0.839s] writing dependency_links to ../../build/data_plot/data_plot.egg-info/dependency_links.txt
+[0.839s] writing entry points to ../../build/data_plot/data_plot.egg-info/entry_points.txt
+[0.839s] writing requirements to ../../build/data_plot/data_plot.egg-info/requires.txt
+[0.839s] writing top-level names to ../../build/data_plot/data_plot.egg-info/top_level.txt
+[0.872s] reading manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'
+[0.873s] writing manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'
+[0.873s] running build
+[0.873s] running build_py
+[0.873s] running install
+[0.874s] running install_lib
+[0.875s] running install_data
+[0.875s] running install_egg_info
+[0.876s] removing '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot-0.0.0-py3.8.egg-info' (and everything under it)
+[0.877s] Copying ../../build/data_plot/data_plot.egg-info to /home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot-0.0.0-py3.8.egg-info
+[0.878s] running install_scripts
+[0.900s] Installing data_plot script to /home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/data_plot
+[0.901s] writing list of installed files to '/home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/install.log'
+[0.919s] Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/src/data_plot' returned '0': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/build install --record /home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/install.log --single-version-externally-managed install_data
