@@ -10,6 +10,26 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
+  <!-- 读取配置文件相关依赖 -->
+  <depend>yaml-cpp</depend>
+  <depend>ament_index_cpp</depend>
+  <!-- 关于坐标变换的依赖 -->
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <!-- ROS自带的消息格式依赖 -->
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <!-- 自定义base_msgs的依赖 -->
+  <depend>base_msgs</depend>
+  <!-- 执行相关依赖 -->
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
