@@ -1,4 +1,4 @@
-[0.024s] Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake /home/panjincheng/Desktop/ws_ROS2PNC/src/base_msgs -DCMAKE_INSTALL_PREFIX=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs
+[0.024s] Invoking command in '/home/apan/Desktop/ws_ROS2PNC/build/base_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake /home/apan/Desktop/ws_ROS2PNC/src/base_msgs -DCMAKE_INSTALL_PREFIX=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs
 [0.249s] -- The C compiler identification is GNU 9.4.0
 [0.262s] -- The CXX compiler identification is GNU 9.4.0
 [0.271s] -- Detecting C compiler ABI info
@@ -11,26 +11,26 @@
 [0.406s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
 [0.406s] -- Detecting CXX compile features
 [0.407s] -- Detecting CXX compile features - done
-[0.410s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
-[0.428s] -- Found PythonInterp: /home/panjincheng/miniconda3/bin/python3 (found suitable version "3.12.2", minimum required is "3") 
-[0.428s] -- Using PYTHON_EXECUTABLE: /home/panjincheng/miniconda3/bin/python3
-[0.536s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.410s] -- Found ament_cmake: 1.1.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.428s] -- Found PythonInterp: /home/apan/anaconda3/bin/python3 (found suitable version "3.12.2", minimum required is "3") 
+[0.428s] -- Using PYTHON_EXECUTABLE: /home/apan/anaconda3/bin/python3
+[0.536s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
 [0.556s] Traceback (most recent call last):
-[0.556s]   File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.556s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
 [0.556s]     from catkin_pkg.package import evaluate_condition
 [0.556s] ModuleNotFoundError: No module named 'catkin_pkg'
-[0.560s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
-[0.560s]   execute_process(/home/panjincheng/miniconda3/bin/python3
-[0.560s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
-[0.560s]   /home/panjincheng/Desktop/ws_ROS2PNC/src/base_msgs/package.xml
-[0.560s]   /home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs/ament_cmake_core/package.cmake)
+[0.560s] CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.560s]   execute_process(/home/apan/anaconda3/bin/python3
+[0.560s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.560s]   /home/apan/Desktop/ws_ROS2PNC/src/base_msgs/package.xml
+[0.560s]   /home/apan/Desktop/ws_ROS2PNC/build/base_msgs/ament_cmake_core/package.cmake)
 [0.561s]   returned error code 1
 [0.561s] Call Stack (most recent call first):
-[0.561s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
-[0.561s]   /opt/ros/galactic/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.561s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.561s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
 [0.561s]   CMakeLists.txt:22 (ament_lint_auto_find_test_dependencies)
 [0.561s] 
 [0.561s] 
 [0.561s] -- Configuring incomplete, errors occurred!
-[0.561s] See also "/home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs/CMakeFiles/CMakeOutput.log".
-[0.564s] Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake /home/panjincheng/Desktop/ws_ROS2PNC/src/base_msgs -DCMAKE_INSTALL_PREFIX=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs
+[0.561s] See also "/home/apan/Desktop/ws_ROS2PNC/build/base_msgs/CMakeFiles/CMakeOutput.log".
+[0.564s] Invoked command in '/home/apan/Desktop/ws_ROS2PNC/build/base_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake /home/apan/Desktop/ws_ROS2PNC/src/base_msgs -DCMAKE_INSTALL_PREFIX=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs

@@ -1,0 +1,2 @@
+Invoking command in '/home/apan/Desktop/ROS2PNC/build/base_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/apan/Desktop/ROS2PNC/src/base_msgs -DCMAKE_INSTALL_PREFIX=/home/apan/Desktop/ROS2PNC/install/base_msgs
+Invoked command in '/home/apan/Desktop/ROS2PNC/build/base_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/apan/Desktop/ROS2PNC/src/base_msgs -DCMAKE_INSTALL_PREFIX=/home/apan/Desktop/ROS2PNC/install/base_msgs

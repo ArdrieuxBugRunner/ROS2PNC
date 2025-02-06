@@ -12,8 +12,8 @@ running install
 running install_lib
 running install_data
 running install_egg_info
-removing '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot-0.0.0-py3.8.egg-info' (and everything under it)
-Copying ../../build/data_plot/data_plot.egg-info to /home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot-0.0.0-py3.8.egg-info
+removing '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/data_plot/data_plot.egg-info to /home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot-0.0.0-py3.8.egg-info
 running install_scripts
-Installing data_plot script to /home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/data_plot
-writing list of installed files to '/home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/install.log'
+Installing data_plot script to /home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/data_plot
+writing list of installed files to '/home/apan/Desktop/ws_ROS2PNC/build/data_plot/install.log'

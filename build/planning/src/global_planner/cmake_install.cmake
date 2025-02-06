@@ -1,8 +1,8 @@
-# Install script for directory: /home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/global_planner
+# Install script for directory: /home/apan/Desktop/ROS2PNC/src/planning/src/global_planner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/panjincheng/Desktop/ws_ROS2PNC/install/planning")
+  set(CMAKE_INSTALL_PREFIX "/home/apan/Desktop/ROS2PNC/install/planning")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

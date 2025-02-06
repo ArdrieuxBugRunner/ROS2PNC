@@ -8,15 +8,15 @@ reading manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'
 writing manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'
 running build
 running build_py
-copying data_plot/data_plot.py -> /home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/build/lib/data_plot
+copying data_plot/data_plot.py -> /home/apan/Desktop/ws_ROS2PNC/build/data_plot/build/lib/data_plot
 running install
 running install_lib
-copying /home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/build/lib/data_plot/data_plot.py -> /home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot
-byte-compiling /home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot/data_plot.py to data_plot.cpython-38.pyc
+copying /home/apan/Desktop/ws_ROS2PNC/build/data_plot/build/lib/data_plot/data_plot.py -> /home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot
+byte-compiling /home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot/data_plot.py to data_plot.cpython-38.pyc
 running install_data
 running install_egg_info
-removing '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot-0.0.0-py3.8.egg-info' (and everything under it)
-Copying ../../build/data_plot/data_plot.egg-info to /home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot-0.0.0-py3.8.egg-info
+removing '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/data_plot/data_plot.egg-info to /home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages/data_plot-0.0.0-py3.8.egg-info
 running install_scripts
-Installing data_plot script to /home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/data_plot
-writing list of installed files to '/home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/install.log'
+Installing data_plot script to /home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/data_plot
+writing list of installed files to '/home/apan/Desktop/ws_ROS2PNC/build/data_plot/install.log'

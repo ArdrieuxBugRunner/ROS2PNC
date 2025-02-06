@@ -1,24 +1,24 @@
-[0.240s] Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning': AMENT_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
-[0.269s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
-[0.297s] -- Using PYTHON_EXECUTABLE: /home/panjincheng/miniconda3/bin/python3
-[0.407s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.240s] Invoking command in '/home/apan/Desktop/ws_ROS2PNC/build/planning': AMENT_PREFIX_PATH=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake --build /home/apan/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
+[0.269s] -- Found ament_cmake: 1.1.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.297s] -- Using PYTHON_EXECUTABLE: /home/apan/anaconda3/bin/python3
+[0.407s] -- Found rclcpp: 9.2.2 (/opt/ros/humble/share/rclcpp/cmake)
 [0.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
-[0.475s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.475s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
 [0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
-[0.665s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
-[0.667s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.665s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.667s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
 [0.689s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
-[0.862s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
-[0.918s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
-[1.289s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
-[1.358s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
-[1.427s] -- Found base_msgs: 0.0.0 (/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/cmake)
+[0.862s] -- Found tf2: 0.17.5 (/opt/ros/humble/share/tf2/cmake)
+[0.918s] -- Found tf2_ros: 0.17.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.289s] -- Found nav_msgs: 2.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.358s] -- Found visualization_msgs: 2.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.427s] -- Found base_msgs: 0.0.0 (/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/cmake)
 [1.553s] -- Configuring done
 [1.581s] -- Generating done
-[1.589s] -- Build files have been written to: /home/panjincheng/Desktop/ws_ROS2PNC/build/planning
+[1.589s] -- Build files have been written to: /home/apan/Desktop/ws_ROS2PNC/build/planning
 [1.612s] [35m[1mScanning dependencies of target planning_node[0m
 [1.646s] [ 50%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.o[0m
-[1.697s] [01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_node.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[1.697s] [01m[K/home/apan/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_node.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
 [1.697s]     1 | #pragma [01;35m[Konce[m[K
 [1.697s]       |         [01;35m[K^~~~[m[K
 [4.048s] [100%] [32m[1mLinking CXX executable planning_node[0m
@@ -28,4 +28,4 @@
 [4.191s] make[2]: *** [src/planning_process/CMakeFiles/planning_node.dir/build.make:190：src/planning_process/planning_node] 错误 1
 [4.191s] make[1]: *** [CMakeFiles/Makefile2:337：src/planning_process/CMakeFiles/planning_node.dir/all] 错误 2
 [4.191s] make: *** [Makefile:160：all] 错误 2
-[4.193s] Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning' returned '2': AMENT_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
+[4.193s] Invoked command in '/home/apan/Desktop/ws_ROS2PNC/build/planning' returned '2': AMENT_PREFIX_PATH=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake --build /home/apan/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16

@@ -1,4 +1,4 @@
-[01m[K/home/panjincheng/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_node.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[01m[K/home/apan/Desktop/ws_ROS2PNC/src/planning/src/planning_process/planning_node.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
     1 | #pragma [01;35m[Konce[m[K
       |         [01;35m[K^~~~[m[K
 /usr/bin/ld: CMakeFiles/planning_node.dir/planning_node.cpp.o: in function `main':

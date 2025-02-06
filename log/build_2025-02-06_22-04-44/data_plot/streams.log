@@ -1,0 +1,21 @@
+[0.284s] Invoking command in '/home/apan/Desktop/ROS2PNC/src/data_plot': AMENT_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/apan/Desktop/ROS2PNC/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apan/Desktop/ROS2PNC/install/data_plot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/apan/Desktop/ROS2PNC/build/data_plot/build install --record /home/apan/Desktop/ROS2PNC/build/data_plot/install.log --single-version-externally-managed install_data
+[0.393s] running egg_info
+[0.393s] writing ../../build/data_plot/data_plot.egg-info/PKG-INFO
+[0.393s] writing dependency_links to ../../build/data_plot/data_plot.egg-info/dependency_links.txt
+[0.393s] writing entry points to ../../build/data_plot/data_plot.egg-info/entry_points.txt
+[0.393s] writing requirements to ../../build/data_plot/data_plot.egg-info/requires.txt
+[0.393s] writing top-level names to ../../build/data_plot/data_plot.egg-info/top_level.txt
+[0.394s] reading manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'
+[0.395s] writing manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'
+[0.395s] running build
+[0.395s] running build_py
+[0.395s] running install
+[0.395s] running install_lib
+[0.395s] running install_data
+[0.395s] running install_egg_info
+[0.396s] removing '/home/apan/Desktop/ROS2PNC/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.396s] Copying ../../build/data_plot/data_plot.egg-info to /home/apan/Desktop/ROS2PNC/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info
+[0.397s] running install_scripts
+[0.408s] Installing data_plot script to /home/apan/Desktop/ROS2PNC/install/data_plot/lib/data_plot
+[0.408s] writing list of installed files to '/home/apan/Desktop/ROS2PNC/build/data_plot/install.log'
+[0.420s] Invoked command in '/home/apan/Desktop/ROS2PNC/src/data_plot' returned '0': AMENT_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/apan/Desktop/ROS2PNC/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apan/Desktop/ROS2PNC/install/data_plot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/apan/Desktop/ROS2PNC/build/data_plot/build install --record /home/apan/Desktop/ROS2PNC/build/data_plot/install.log --single-version-externally-managed install_data

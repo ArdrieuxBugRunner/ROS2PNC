@@ -6,7 +6,7 @@
 [0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
 [0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
 [0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
-[0.352s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/panjincheng/Desktop/ws_ROS2PNC'
+[0.352s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/apan/Desktop/ws_ROS2PNC'
 [0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
 [0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
 [0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
@@ -95,8 +95,8 @@
 [0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
 [0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
 [0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
-[0.388s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/panjincheng/Desktop/ws_ROS2PNC/install
-[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/galactic
+[0.388s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/apan/Desktop/ws_ROS2PNC/install
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
 [0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
 [0.462s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'cmake_args' from command line to 'None'
 [0.462s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'cmake_target' from command line to 'None'
@@ -107,7 +107,7 @@
 [0.462s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'ament_cmake_args' from command line to 'None'
 [0.462s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
 [0.462s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.462s] DEBUG:colcon.colcon_core.verb:Building package 'base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs', 'merge_install': False, 'path': '/home/panjincheng/Desktop/ws_ROS2PNC/src/base_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.462s] DEBUG:colcon.colcon_core.verb:Building package 'base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apan/Desktop/ws_ROS2PNC/build/base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs', 'merge_install': False, 'path': '/home/apan/Desktop/ws_ROS2PNC/src/base_msgs', 'symlink_install': False, 'test_result_base': None}
 [0.463s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'cmake_args' from command line to 'None'
 [0.463s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'cmake_target' from command line to 'None'
 [0.463s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
@@ -117,7 +117,7 @@
 [0.463s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'ament_cmake_args' from command line to 'None'
 [0.463s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'catkin_cmake_args' from command line to 'None'
 [0.463s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.463s] DEBUG:colcon.colcon_core.verb:Building package 'data_plot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot', 'merge_install': False, 'path': '/home/panjincheng/Desktop/ws_ROS2PNC/src/data_plot', 'symlink_install': False, 'test_result_base': None}
+[0.463s] DEBUG:colcon.colcon_core.verb:Building package 'data_plot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apan/Desktop/ws_ROS2PNC/build/data_plot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apan/Desktop/ws_ROS2PNC/install/data_plot', 'merge_install': False, 'path': '/home/apan/Desktop/ws_ROS2PNC/src/data_plot', 'symlink_install': False, 'test_result_base': None}
 [0.463s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_args' from command line to 'None'
 [0.463s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_target' from command line to 'None'
 [0.463s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
@@ -127,126 +127,126 @@
 [0.464s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'ament_cmake_args' from command line to 'None'
 [0.464s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'catkin_cmake_args' from command line to 'None'
 [0.464s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning', 'merge_install': False, 'path': '/home/panjincheng/Desktop/ws_ROS2PNC/src/planning', 'symlink_install': False, 'test_result_base': None}
+[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apan/Desktop/ws_ROS2PNC/build/planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apan/Desktop/ws_ROS2PNC/install/planning', 'merge_install': False, 'path': '/home/apan/Desktop/ws_ROS2PNC/src/planning', 'symlink_install': False, 'test_result_base': None}
 [0.464s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
 [0.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
-[0.465s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/panjincheng/Desktop/ws_ROS2PNC/src/base_msgs' with build type 'ament_cmake'
-[0.465s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/panjincheng/Desktop/ws_ROS2PNC/src/base_msgs'
+[0.465s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apan/Desktop/ws_ROS2PNC/src/base_msgs' with build type 'ament_cmake'
+[0.465s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apan/Desktop/ws_ROS2PNC/src/base_msgs'
 [0.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
 [0.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs -- -j16 -l16
-[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs -- -j16 -l16
-[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --install /home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apan/Desktop/ws_ROS2PNC/build/base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apan/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake --build /home/apan/Desktop/ws_ROS2PNC/build/base_msgs -- -j16 -l16
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apan/Desktop/ws_ROS2PNC/build/base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apan/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake --build /home/apan/Desktop/ws_ROS2PNC/build/base_msgs -- -j16 -l16
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apan/Desktop/ws_ROS2PNC/build/base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apan/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake --install /home/apan/Desktop/ws_ROS2PNC/build/base_msgs
 [0.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_msgs)
-[0.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --install /home/panjincheng/Desktop/ws_ROS2PNC/build/base_msgs
-[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs' for CMake module files
-[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs' for CMake config files
+[0.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apan/Desktop/ws_ROS2PNC/build/base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apan/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake --install /home/apan/Desktop/ws_ROS2PNC/build/base_msgs
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs' for CMake module files
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs' for CMake config files
 [0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_msgs', 'cmake_prefix_path')
-[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.ps1'
-[0.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.dsv'
-[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.sh'
-[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/bin'
-[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/lib/pkgconfig/base_msgs.pc'
-[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/lib/python3.8/site-packages'
-[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/bin'
-[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.ps1'
-[0.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.dsv'
-[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.sh'
-[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.bash'
-[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.zsh'
-[0.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/colcon-core/packages/base_msgs)
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.sh'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/bin'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/lib/pkgconfig/base_msgs.pc'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/lib/python3.8/site-packages'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/bin'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.ps1'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.sh'
+[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.bash'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.zsh'
+[0.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/colcon-core/packages/base_msgs)
 [0.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_msgs)
-[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs' for CMake module files
-[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs' for CMake config files
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs' for CMake module files
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs' for CMake config files
 [0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_msgs', 'cmake_prefix_path')
-[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.ps1'
-[0.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.dsv'
-[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.sh'
-[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/bin'
-[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/lib/pkgconfig/base_msgs.pc'
-[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/lib/python3.8/site-packages'
-[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/bin'
-[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.ps1'
-[0.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.dsv'
-[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.sh'
-[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.bash'
-[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.zsh'
-[0.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs/share/colcon-core/packages/base_msgs)
-[0.528s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/panjincheng/Desktop/ws_ROS2PNC/src/data_plot' with build type 'ament_python'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.sh'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/bin'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/lib/pkgconfig/base_msgs.pc'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/lib/python3.8/site-packages'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/bin'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.dsv'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.bash'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/base_msgs/package.zsh'
+[0.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apan/Desktop/ws_ROS2PNC/install/base_msgs/share/colcon-core/packages/base_msgs)
+[0.528s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/apan/Desktop/ws_ROS2PNC/src/data_plot' with build type 'ament_python'
 [0.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_plot', 'ament_prefix_path')
-[0.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/ament_prefix_path.ps1'
-[0.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/ament_prefix_path.dsv'
-[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/ament_prefix_path.sh'
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/ament_prefix_path.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/ament_prefix_path.dsv'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/ament_prefix_path.sh'
 [0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.536s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/panjincheng/Desktop/ws_ROS2PNC/src/planning' with build type 'ament_cmake'
-[0.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/panjincheng/Desktop/ws_ROS2PNC/src/planning'
+[0.536s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apan/Desktop/ws_ROS2PNC/src/planning' with build type 'ament_cmake'
+[0.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apan/Desktop/ws_ROS2PNC/src/planning'
 [0.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.760s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/panjincheng/Desktop/ws_ROS2PNC/src/data_plot'
+[0.760s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/apan/Desktop/ws_ROS2PNC/src/data_plot'
 [0.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
-[1.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/src/data_plot': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/build install --record /home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/install.log --single-version-externally-managed install_data
-[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot' for CMake module files
-[1.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/src/data_plot' returned '0': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/build install --record /home/panjincheng/Desktop/ws_ROS2PNC/build/data_plot/install.log --single-version-externally-managed install_data
-[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot' for CMake config files
-[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib'
-[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/bin'
-[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/pkgconfig/data_plot.pc'
-[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages'
+[0.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apan/Desktop/ws_ROS2PNC/build/planning': CMAKE_PREFIX_PATH=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs:/home/apan/Desktop/ws_ROS2PNC/install/planning:/home/apan/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake --build /home/apan/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
+[1.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apan/Desktop/ws_ROS2PNC/src/data_plot': CMAKE_PREFIX_PATH=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs:/home/apan/Desktop/ws_ROS2PNC/install/planning CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/apan/Desktop/ws_ROS2PNC/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/apan/Desktop/ws_ROS2PNC/build/data_plot/build install --record /home/apan/Desktop/ws_ROS2PNC/build/data_plot/install.log --single-version-externally-managed install_data
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/data_plot' for CMake module files
+[1.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apan/Desktop/ws_ROS2PNC/src/data_plot' returned '0': CMAKE_PREFIX_PATH=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs:/home/apan/Desktop/ws_ROS2PNC/install/planning CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/apan/Desktop/ws_ROS2PNC/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/apan/Desktop/ws_ROS2PNC/build/data_plot/build install --record /home/apan/Desktop/ws_ROS2PNC/build/data_plot/install.log --single-version-externally-managed install_data
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/data_plot' for CMake config files
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib'
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/bin'
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/pkgconfig/data_plot.pc'
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/lib/python3.8/site-packages'
 [1.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_plot', 'pythonpath')
-[1.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/pythonpath.ps1'
-[1.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/pythonpath.dsv'
-[1.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/pythonpath.sh'
-[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/bin'
+[1.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/pythonpath.ps1'
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/pythonpath.dsv'
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/hook/pythonpath.sh'
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/bin'
 [1.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_plot)
-[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/package.ps1'
-[1.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/package.dsv'
-[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/package.sh'
-[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/package.bash'
-[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/package.zsh'
-[1.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot/share/colcon-core/packages/data_plot)
-[4.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --build /home/panjincheng/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
-[4.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --install /home/panjincheng/Desktop/ws_ROS2PNC/build/planning
+[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/package.ps1'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/package.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/package.sh'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/package.bash'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/data_plot/package.zsh'
+[1.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apan/Desktop/ws_ROS2PNC/install/data_plot/share/colcon-core/packages/data_plot)
+[4.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apan/Desktop/ws_ROS2PNC/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs:/home/apan/Desktop/ws_ROS2PNC/install/planning:/home/apan/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake --build /home/apan/Desktop/ws_ROS2PNC/build/planning -- -j16 -l16
+[4.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apan/Desktop/ws_ROS2PNC/build/planning': CMAKE_PREFIX_PATH=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs:/home/apan/Desktop/ws_ROS2PNC/install/planning:/home/apan/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake --install /home/apan/Desktop/ws_ROS2PNC/build/planning
 [4.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planning)
-[4.336s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning' for CMake module files
-[4.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panjincheng/Desktop/ws_ROS2PNC/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/panjincheng/Desktop/ws_ROS2PNC/install/base_msgs:/home/panjincheng/Desktop/ws_ROS2PNC/install/planning:/home/panjincheng/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /home/panjincheng/miniconda3/bin/cmake --install /home/panjincheng/Desktop/ws_ROS2PNC/build/planning
-[4.337s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning' for CMake config files
+[4.336s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning' for CMake module files
+[4.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apan/Desktop/ws_ROS2PNC/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/apan/Desktop/ws_ROS2PNC/install/base_msgs:/home/apan/Desktop/ws_ROS2PNC/install/planning:/home/apan/Desktop/ws_ROS2PNC/install/data_plot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/apan/anaconda3/bin/cmake --install /home/apan/Desktop/ws_ROS2PNC/build/planning
+[4.337s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning' for CMake config files
 [4.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'cmake_prefix_path')
-[4.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.ps1'
-[4.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.dsv'
-[4.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.sh'
-[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/lib'
-[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/bin'
-[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/lib/pkgconfig/planning.pc'
-[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/lib/python3.8/site-packages'
-[4.341s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/bin'
-[4.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.ps1'
-[4.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.dsv'
-[4.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.sh'
-[4.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.bash'
-[4.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.zsh'
-[4.344s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/colcon-core/packages/planning)
+[4.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.ps1'
+[4.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.dsv'
+[4.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.sh'
+[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning/lib'
+[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning/bin'
+[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning/lib/pkgconfig/planning.pc'
+[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning/lib/python3.8/site-packages'
+[4.341s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning/bin'
+[4.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/package.ps1'
+[4.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/package.dsv'
+[4.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/package.sh'
+[4.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/package.bash'
+[4.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/package.zsh'
+[4.344s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apan/Desktop/ws_ROS2PNC/install/planning/share/colcon-core/packages/planning)
 [4.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planning)
-[4.345s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning' for CMake module files
-[4.346s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning' for CMake config files
+[4.345s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning' for CMake module files
+[4.346s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning' for CMake config files
 [4.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'cmake_prefix_path')
-[4.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.ps1'
-[4.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.dsv'
-[4.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.sh'
-[4.349s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/lib'
-[4.349s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/bin'
-[4.349s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/lib/pkgconfig/planning.pc'
-[4.350s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/lib/python3.8/site-packages'
-[4.350s] Level 1:colcon.colcon_core.environment:checking '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/bin'
-[4.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.ps1'
-[4.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.dsv'
-[4.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.sh'
-[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.bash'
-[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/planning/package.zsh'
-[4.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panjincheng/Desktop/ws_ROS2PNC/install/planning/share/colcon-core/packages/planning)
+[4.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.ps1'
+[4.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.dsv'
+[4.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/hook/cmake_prefix_path.sh'
+[4.349s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning/lib'
+[4.349s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning/bin'
+[4.349s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning/lib/pkgconfig/planning.pc'
+[4.350s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning/lib/python3.8/site-packages'
+[4.350s] Level 1:colcon.colcon_core.environment:checking '/home/apan/Desktop/ws_ROS2PNC/install/planning/bin'
+[4.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/package.ps1'
+[4.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/package.dsv'
+[4.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/package.sh'
+[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/package.bash'
+[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/apan/Desktop/ws_ROS2PNC/install/planning/share/planning/package.zsh'
+[4.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apan/Desktop/ws_ROS2PNC/install/planning/share/colcon-core/packages/planning)
 [4.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
 [4.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
 [4.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
@@ -255,13 +255,13 @@
 [4.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
 [4.361s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
 [4.380s] DEBUG:colcon.colcon_core.event_reactor:joined thread
-[4.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/panjincheng/Desktop/ws_ROS2PNC/install/local_setup.ps1'
-[4.382s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/panjincheng/Desktop/ws_ROS2PNC/install/_local_setup_util_ps1.py'
-[4.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/panjincheng/Desktop/ws_ROS2PNC/install/setup.ps1'
-[4.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/panjincheng/Desktop/ws_ROS2PNC/install/local_setup.sh'
-[4.384s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/panjincheng/Desktop/ws_ROS2PNC/install/_local_setup_util_sh.py'
-[4.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/panjincheng/Desktop/ws_ROS2PNC/install/setup.sh'
-[4.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/panjincheng/Desktop/ws_ROS2PNC/install/local_setup.bash'
-[4.386s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/panjincheng/Desktop/ws_ROS2PNC/install/setup.bash'
-[4.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/panjincheng/Desktop/ws_ROS2PNC/install/local_setup.zsh'
-[4.388s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/panjincheng/Desktop/ws_ROS2PNC/install/setup.zsh'
+[4.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apan/Desktop/ws_ROS2PNC/install/local_setup.ps1'
+[4.382s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/apan/Desktop/ws_ROS2PNC/install/_local_setup_util_ps1.py'
+[4.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apan/Desktop/ws_ROS2PNC/install/setup.ps1'
+[4.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apan/Desktop/ws_ROS2PNC/install/local_setup.sh'
+[4.384s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/apan/Desktop/ws_ROS2PNC/install/_local_setup_util_sh.py'
+[4.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apan/Desktop/ws_ROS2PNC/install/setup.sh'
+[4.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apan/Desktop/ws_ROS2PNC/install/local_setup.bash'
+[4.386s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apan/Desktop/ws_ROS2PNC/install/setup.bash'
+[4.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apan/Desktop/ws_ROS2PNC/install/local_setup.zsh'
+[4.388s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apan/Desktop/ws_ROS2PNC/install/setup.zsh'

@@ -1,0 +1,41 @@
+[0.006s] Invoking command in '/home/apan/Desktop/ROS2PNC/build/base_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/apan/Desktop/ROS2PNC/src/base_msgs -DCMAKE_INSTALL_PREFIX=/home/apan/Desktop/ROS2PNC/install/base_msgs
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.074s] -- The CXX compiler identification is GNU 11.4.0
+[0.078s] -- Detecting C compiler ABI info
+[0.124s] -- Detecting C compiler ABI info - done
+[0.128s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.128s] -- Detecting C compile features
+[0.128s] -- Detecting C compile features - done
+[0.130s] -- Detecting CXX compiler ABI info
+[0.181s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.185s] -- Detecting CXX compile features - done
+[0.186s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /home/apan/anaconda3/bin/python3 (found version "3.11.7") found components: Interpreter 
+[0.436s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.443s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.518s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.526s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.540s] Traceback (most recent call last):
+[0.540s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.540s]     from catkin_pkg.package import parse_package_string
+[0.540s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.542s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.542s]   execute_process(/home/apan/anaconda3/bin/python3
+[0.542s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.542s]   /home/apan/Desktop/ROS2PNC/src/base_msgs/package.xml
+[0.542s]   /home/apan/Desktop/ROS2PNC/build/base_msgs/ament_cmake_core/package.cmake)
+[0.542s]   returned error code 1
+[0.542s] Call Stack (most recent call first):
+[0.542s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.542s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.542s]   CMakeLists.txt:48 (ament_lint_auto_find_test_dependencies)
+[0.542s] 
+[0.542s] [0m
+[0.542s] -- Configuring incomplete, errors occurred!
+[0.542s] See also "/home/apan/Desktop/ROS2PNC/build/base_msgs/CMakeFiles/CMakeOutput.log".
+[0.545s] Invoked command in '/home/apan/Desktop/ROS2PNC/build/base_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/apan/Desktop/ROS2PNC/src/base_msgs -DCMAKE_INSTALL_PREFIX=/home/apan/Desktop/ROS2PNC/install/base_msgs

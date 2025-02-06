@@ -1,0 +1,5 @@
+[0.006s] Invoking command in '/home/apan/Desktop/ROS2PNC/build/base_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/apan/Desktop/ROS2PNC/build/base_msgs -- -j16 -l16
+[0.010s] [0mCMake Error: The current CMakeCache.txt directory /home/apan/Desktop/ROS2PNC/build/base_msgs/CMakeCache.txt is different than the directory /home/apan/Desktop/ws_ROS2PNC/build/base_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.012s] make: /home/apan/anaconda3/bin/cmake: 没有那个文件或目录
+[0.012s] make: *** [Makefile:241：cmake_check_build_system] 错误 127
+[0.013s] Invoked command in '/home/apan/Desktop/ROS2PNC/build/base_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/apan/Desktop/ROS2PNC/build/base_msgs -- -j16 -l16

@@ -1,0 +1,3 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/apan/Desktop/ROS2PNC/build/base_msgs/CMakeCache.txt is different than the directory /home/apan/Desktop/ws_ROS2PNC/build/base_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+make: /home/apan/anaconda3/bin/cmake: 没有那个文件或目录
+make: *** [Makefile:241：cmake_check_build_system] 错误 127

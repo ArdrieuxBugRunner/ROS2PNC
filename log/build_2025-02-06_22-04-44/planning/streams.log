@@ -1,0 +1,28 @@
+[0.123s] Invoking command in '/home/apan/Desktop/ROS2PNC/build/planning': AMENT_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/apan/Desktop/ROS2PNC/build/planning -- -j16 -l16
+[0.159s] [100%] Built target planning_node
+[0.167s] Invoked command in '/home/apan/Desktop/ROS2PNC/build/planning' returned '0': AMENT_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/apan/Desktop/ROS2PNC/build/planning -- -j16 -l16
+[0.168s] Invoking command in '/home/apan/Desktop/ROS2PNC/build/planning': AMENT_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/apan/Desktop/ROS2PNC/build/planning
+[0.172s] -- Install configuration: ""
+[0.172s] -- Up-to-date: /home/apan/Desktop/ROS2PNC/install/planning/lib/planning/planning_node
+[0.173s] -- Up-to-date: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/config
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/launch
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/urdf
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/urdf/main_car
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/urdf/obs_car
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/rviz
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/environment/ament_prefix_path.sh
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/environment/ament_prefix_path.dsv
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/environment/path.sh
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/environment/path.dsv
+[0.173s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/local_setup.bash
+[0.174s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/local_setup.sh
+[0.174s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/local_setup.zsh
+[0.174s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/local_setup.dsv
+[0.174s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/package.dsv
+[0.174s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/ament_index/resource_index/packages/planning
+[0.174s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/cmake/planningConfig.cmake
+[0.174s] -- Installing: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/cmake/planningConfig-version.cmake
+[0.174s] -- Up-to-date: /home/apan/Desktop/ROS2PNC/install/planning/share/planning/package.xml
+[0.175s] Invoked command in '/home/apan/Desktop/ROS2PNC/build/planning' returned '0': AMENT_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apan/Desktop/ROS2PNC/install/base_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/apan/Desktop/ROS2PNC/build/planning
